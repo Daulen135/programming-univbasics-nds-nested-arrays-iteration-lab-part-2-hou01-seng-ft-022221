@@ -12,7 +12,7 @@ while row_index < src.count do
   smallest_number=0
   while element_index < src[row_index].count do
  
-    binding.pry
+    
     
     if src[row_index][element_index].length < smallest_number.length do
       smallest_number = src[row_index][element_index]
