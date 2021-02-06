@@ -23,6 +23,6 @@ while row_index < src.count do
  outer_results << smallest_number
   row_index += 1
 end
- 
+ outer_results
 end
 
