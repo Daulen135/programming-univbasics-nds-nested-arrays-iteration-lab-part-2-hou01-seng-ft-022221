@@ -14,7 +14,7 @@ while row_index < src.count do
  
     
     
-    if src[row_index][element_index].length < smallest_number.length 
+    if src[row_index][element_index] < smallest_number 
       smallest_number = src[row_index][element_index]
     end
     element_index += 1
